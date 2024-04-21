@@ -77,4 +77,8 @@ public class MemberController {
         return "Dis bonjour à mon petit ami, Jenkins!";
     }
 
+    @GetMapping(value ="/hi")
+    public String hi(){
+        return "say hello Jenkins";
+    }
 }
